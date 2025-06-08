@@ -45,6 +45,11 @@ section {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
+.token-info h2,
+.socials h2 {
+  text-align: center;
+}
+
 .token-info ul {
   list-style: none;
   padding: 0;
@@ -77,6 +82,15 @@ section {
 
 .socials li {
   display: inline-block;
+}
+
+.socials a {
+  display: inline-block;
+}
+
+.socials a::after {
+  content: "";
+  display: none;
 }
 
 .socials img {
@@ -129,3 +143,4 @@ footer {
     transform: translatey(0px);
   }
 }
+
