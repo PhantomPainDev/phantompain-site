@@ -1,0 +1,21 @@
+{
+  "name": "PhantomPain",
+  "symbol": "PAIN",
+  "description": "Rugged. Scammed. Left for dead. Now fighting back.",
+  "image": "https://phantompaindev.github.io/phantompain-site/logo.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://phantompaindev.github.io/phantompain-site/logo.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "HF7aaNdTiRswSd35SjGFpRKHBQtV1avGECpXQ4KrB85j",
+        "share": 100
+      }
+    ]
+  }
+}
