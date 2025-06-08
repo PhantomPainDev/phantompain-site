@@ -81,16 +81,15 @@ section {
 }
 
 .socials li {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #ff9800;
 }
 
 .socials a {
   display: inline-block;
-}
-
-.socials a::after {
-  content: "";
-  display: none;
 }
 
 .socials img {
@@ -143,4 +142,3 @@ footer {
     transform: translatey(0px);
   }
 }
-
